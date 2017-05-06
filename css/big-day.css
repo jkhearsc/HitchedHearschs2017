@@ -604,15 +604,17 @@ nav + section {
   margin-top: 6rem;
 }
 section {
-  margin: 4rem 0;
+ /* margin: 4rem 0; */
   padding: 2rem 8rem;
   overflow: hidden;
   position: relative;
 }
 section.bg-light-gray {
+ /* 
   margin: 6rem 0;
   padding-top: 4rem;
   padding-bottom: 4rem;
+	*/
 }
 section h2 {
   text-align: center;
@@ -848,7 +850,7 @@ section.section-hero .scroll-down:before {
 }
 section.section-couple {
   margin-top: 0;
-  padding-top: 8rem;
+ /* padding-top: 8rem; */
 }
 section.section-couple .flowers {
   overflow: hidden;
@@ -1668,14 +1670,14 @@ section.section-gifts .retailer-list .row .retailer-thumbnail + h4 {
   font-size: 1em;
 }
 section + footer {
-  margin-top: 6rem;
+  /* margin-top: 6rem; */
 }
 /*------------------------------------------------------------------
 [3. Separator / separator]
 */
 .separator {
-  margin: 6rem 0;
-  padding: 2rem 0;
+ /* margin: 6rem 0;
+  padding: 2rem 0; */
 }
 .separator:before,
 .separator:after {
@@ -1925,8 +1927,11 @@ body > footer,
 .separator.parallax {
   padding-top: 5rem;
   padding-bottom: 5rem;
+  /*
   margin-top: 5rem;
   margin-bottom: 5rem;
+	*/
+	
 }
 @media only screen and (max-width: 599px) {
   section.section-hero,
