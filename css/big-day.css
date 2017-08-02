@@ -1128,9 +1128,23 @@ section.section-events ul.event-list > li .event-details ul.event-info {
   list-style: none;
   margin: 1em 0;
   font-size: .9em;
-  font-weight: 700;
+
   line-height: 1.8;
 }
+
+section.section-events ul.event-list > li .event-details ul.event-info > li.header {
+  font-weight: 700;
+}
+
+section.section-events ul.event-list > li .event-details ul.event-info > li a {
+  color: #1B2D79;
+  text-decoration: underline;
+}
+
+section.section-events ul.event-list > li .event-details ul.event-info > li a:hover {
+  color: #FECDCA;
+}
+
 section.section-events ul.event-list > li .event-details ul.event-info > li span {
   display: inline-block;
   color: #FECDCA;
